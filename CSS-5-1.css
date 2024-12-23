@@ -17,6 +17,7 @@ body{
 .HeadCont{
     display: flex;
     width: 1040px;
+    max-width: 1040px;;
     height:36px;
     padding:14px 200px;
     justify-content:space-between;
@@ -87,8 +88,15 @@ body{
 
 }
 /* Main */
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:88px;
+}
 .mainSection{
     display: flex;
+    justify-content: center;
 }
 
 
@@ -167,6 +175,7 @@ body{
     width:1040px;
     align-items: center;
     gap:64px;
+   
 }
 
 .firstTextCont{
@@ -178,23 +187,23 @@ body{
 }
 .ChapterText{
     color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 28px; 
-margin:0;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    margin:0;
 }
 .TextConeiner p{
     color: #C0C0C0;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-margin:0;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin:0;
 
-}
+ }
 
 /* footer */
 .FooterCont{
@@ -204,18 +213,19 @@ margin:0;
     align-items: flex-start;
     gap: 463px;
     justify-content: center;
-    border-top: 1px solid #261C51;
-
 }
-
+footer{
+    border-top: 1px solid #261C51;
+    width:100%;
+}
 .lastText{
     color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; 
-margin:0;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    margin:0;
 }
 .footerLogos{
     display:flex;
